@@ -3,8 +3,18 @@ import pygame
 import time
 import random
 
-snake_speed = 15
 
+snake_speed = 15
+# Initialize pygame
+pygame.init()
+
+# Few screen constants
+DISPLAY_WIDTH = 800
+DISPLAY_HEIGHT = 600
+
+game_display = pygame.display.set_mode((DISPLAY_WIDTH, DISPLAY_HEIGHT))
+
+#class Fruit:
 # Window size
 window_x = 720
 window_y = 480
